@@ -2,11 +2,11 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
-/**/
 
 .arrow, .img{
     color: lightgrey;
 }
+
 .conteine {
     height: 100%;
     display: flex;
@@ -118,7 +118,6 @@
     font-size: 24px;
 }
 
-/**/
 body{
     margin-left: 0;
     margin-right: 0;
@@ -393,7 +392,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .hero{
         flex-direction:column-reverse;
         text-align: center;
@@ -435,7 +434,7 @@ nav a:hover{
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .menu{
         display: none;
     }
