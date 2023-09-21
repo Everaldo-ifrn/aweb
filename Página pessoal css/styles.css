@@ -3,122 +3,8 @@
     
 }
 
-.arrow, .img{
-    color: lightgrey;
-}
-
-.conteine {
-    height: 100%;
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    
-}
-
-.card {
-    margin: 5px;
-    border-radius: 16px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    cursor: pointer;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    overflow: hidden;
-    background-image: linear-gradient(#111426, #111426);
-    transition: all .5s;
-    margin-bottom: 20px;
-}
-
-.card:hover {
-    background-image: linear-gradient(#51a6a6, #111426);
-}
-
-.card .img {
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
-    transition: all .5s;
-    z-index: 2;
-    position: relative;
-    opacity: 0.8;
-    
-}
-
-.card .img span {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 100;
-    font-style: italic;
-    transition: all .5s;
-}
-
-.card:hover .img {
-    width: 430px;
-    opacity: 1;
-}
-
-.card:hover .img span {
-    font-size: 28px;
-}
-
-.card .content {
-    padding: 0px 20px;
-    height: 0;
-    opacity: 0;
-    transition: all .5s;
-    position: relative;
-    box-sizing: border-box;
-    overflow: hidden;
-    transform: translateY(30px);
-}
-
-.card:hover .content {
-    height: 100%;
-    padding: 20px;
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.card .content p {
-    margin: 0;
-}
-
-.card .content .title {
-    font-size: 20px;
-    font-weight: 600;
-    color: #111426;
-}
-
-.card .content .desc {
-    font-size: 20px;
-    font-weight: 100;
-    opacity: .8;
-    margin-top: 8px;
-    text-shadow: 1.5px 0 0 #111426;
-}
-
-.card .arrow {
-    padding: 15px;
-    transform: rotate(-180deg);
-    transition: all .5s;
-}
-
-.card:hover .arrow {
-    transform: rotate(0);
-}
-
-.card .arrow span {
-    font-size: 24px;
-}
-
 body{
+    font-size: 25px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 70px;
@@ -178,13 +64,13 @@ nav a:hover{
 }
 .menu li{
     position:relative;
-    font-size: 18px;
+    font-size: 25px;
 }
 .menu li a{
     color:#51a6a6; 
-    text-decoration:none; 
-    padding:5px 10px; 
-    display:block;
+    text-decoration: none; 
+    padding: 5px 10px; 
+    display: block;
 }
 .menu li a:hover{
     background:#51a6a6;
@@ -203,7 +89,7 @@ nav a:hover{
 .menu li ul li{
     border:1px solid #c0c0c0;
     display:block;
-    width:150px;
+    width:170px;
 }
 .menuOpcoes{
     border: 1px solid #c0c0c0;
@@ -372,6 +258,121 @@ nav a:hover{
     border-radius: 10px;
 }
 
+.arrow, .img{
+    color: lightgrey;
+}
+
+.conteine {
+    height: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    margin: 5px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(#111426, #111426);
+    transition: all .5s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    background-image: linear-gradient(#51a6a6, #111426);
+}
+
+.card .img {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+    z-index: 2;
+    position: relative;
+    opacity: 0.8;
+    
+}
+
+.card .img span {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    transition: all .5s;
+}
+
+.card:hover .img {
+    width: 430px;
+    opacity: 1;
+}
+
+.card:hover .img span {
+    font-size: 28px;
+}
+
+.card .content {
+    padding: 0px 20px;
+    height: 0;
+    opacity: 0;
+    transition: all .5s;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: translateY(30px);
+}
+
+.card:hover .content {
+    height: 100%;
+    padding: 20px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card .content p {
+    margin: 0;   
+}
+
+.card .content .title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #111426;
+}
+
+.card .content .desc {
+    font-size: 24px;
+    font-weight: 100;
+    opacity: .8;
+    margin-top: 8px;
+    color: lightgrey;
+}
+
+.card .arrow {
+    padding: 15px;
+    transform: rotate(-180deg);
+    transition: all .5s;
+}
+
+.card:hover .arrow {
+    transform: rotate(0);
+}
+
+.card .arrow span {
+    font-size: 24px;
+}
+
 #contato{
     color: lightgrey;
     background-color: #111426;
@@ -390,6 +391,10 @@ nav a:hover{
 #contato a:hover{
     color: #51a6a6;
     text-decoration: underline;
+}
+
+#testandoAi{
+    font-size: 25px;
 }
 
 @media screen and (max-width: 1000px) {
