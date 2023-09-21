@@ -59,6 +59,13 @@ header{
     z-index: 1;
 }
 
+#tea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #tea img{
     width: 300px;
     height: 200px;
@@ -73,9 +80,14 @@ figure{
 }
 
 .fotos{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     max-width: 1000px;
+}
+
+.fotos div{
+    margin: 10px;
 }
 
 #location{
@@ -100,8 +112,4 @@ figure{
 
 .blocos{
     display: flex;
-}
-
-.fotoJunta{
-    margin-right: -145px;
 }
